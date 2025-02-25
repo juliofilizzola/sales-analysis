@@ -1,4 +1,4 @@
-date,product,quantity,price,city
+data,product,quantity,price,city
 2023-10-01,Caneta,10,2.50,São Paulo
 2023-10-01,Caderno,5,15.00,Rio de Janeiro
 2023-10-02,Lápis,20,1.50,Belo Horizonte
