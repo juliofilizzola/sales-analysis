@@ -3,5 +3,5 @@ def cleaner(df):
     df = df.dropna()
     # Drop duplicates
     df['data'] = df['data'].drop_duplicates()
-    df['amount'] = df['quantity'] * df['price']
+    df['total_sale'] = df['quantity'] * df['price']
     return df
