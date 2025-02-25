@@ -1,7 +1,7 @@
 [project]
 name = "sales-analysis"
 version = "0.1.0"
-description = ""
+description = "Projeto de análise de vendas usando Pandas e Matplotlib."
 authors = [
     {name = "Julio Filizzola",email = "juliofilizzola@hotmail.com"}
 ]
@@ -12,6 +12,8 @@ dependencies = [
     "matplotlib (>=3.10.0,<4.0.0)"
 ]
 
+[tool.poetry.scripts]
+sales-analysis = "main:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
